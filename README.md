@@ -59,7 +59,7 @@ CREATE TABLE PILOTOS2
  EXEC sp_RENAME 'PILOTOS.NASCIMENTO','NASC','COLUMN'
  ```
  
- **4. Serão inseridos os seguintes dados dados **
+ **4. Serão inseridos os seguintes dados dados**
  
  *The following data will be entered*
     
@@ -114,9 +114,11 @@ from PILOTOS
 WHERE pilotoid = 11
 ```
 
-**6. Uma visualização unindo todas as informações de PILOTOS e PILOTOS2 foi criada **
+
+**6. Uma visualização unindo todas as informações de PILOTOS e PILOTOS2 foi criada**
 
 *A view uniting all information from PILOTOS and PILOTOS2 was created*
+
 ```slq
 select *
 from PILOTOS P1
@@ -187,6 +189,24 @@ HAVING COUNT(nacionalidade) > 1
 ```
 
 <img src="img/NACIONALIDADE_REPETIDA.png" align="center" width="700">
+
+
+## Subtitle PT-EN
+
+PILOTOS = PILOT (F1 DRIVER)
+NOME = NAME
+SOBRENOME = LAST NAME
+NACIONALIDADE = NATIONALITY
+NASCIMENTO = BIRTH
+SALARIO = SALARY
+BONUS = BONUS 
+EQUIPE = TEAM
+NASC = SHORT FOR NASCIMENTO
+SALÁRIO TOTAL = TOTAL SALARY 
+MÉDIA SALARIAL = AVERAGE WAGE
+IDADE = AGE
+
+
 
 
 
