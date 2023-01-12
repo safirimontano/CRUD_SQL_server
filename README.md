@@ -2,8 +2,10 @@
  
 Nesse repositório você encontrará um CRUD (Create, Read, Update and delete) e outros comandos SQL para Microsoft SQL Server feitos com informaçõees de pilotos de fórmula 1 com algumas alterações. 
 O arquivo contem a base de dados para que sejam realizadas as consultas. 
+Ao final será disponibilizado um dicionário PT-EN além de uma visualização de dashboard em PowerBi que foi realizada utilizando a base de dados de exemplo. 
 
-*In this repository you will find a CRUD (Create, Read, Update and Delete) and other SQL commands for Microsoft SQL Server made with information from formula 1 drivers with some changes.The file contains the database for queries.*
+*In this repository you will find a CRUD (Create, Read, Update and Delete) and other SQL commands for Microsoft SQL Server made with information from formula 1 drivers with some changes.The file contains the database for queries.
+At the end, a PT-EN dictionary will be made available, in addition to a dashboard view in PowerBi that was performed using the example database.*
 
 ## Dicas de uso 
 Para conseguir realizar as QUErys é necessário que comece pelo passo 1 e 4 onde você irá criar e inserir valores em uma tabela. 
@@ -190,6 +192,10 @@ HAVING COUNT(nacionalidade) > 1
 
 <img src="img/NACIONALIDADE_REPETIDA.png" align="center" width="700">
 
+
+**Visualização de Dashboard em PowerBi**
+
+<img src="img/print dash_f1.png" align="center" width="900">
 
 ## Subtitle PT-EN
 
